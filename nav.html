@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/font awesome/css/all.min.css">
+    <link rel="stylesheet" href="nav.css">
+    <title>Navigation bar</title>
+</head>
+<body class="dark light">
+    <div class="container">
+        <div class="sun-moon-container">
+            <!--sun icon-->
+            <svg class = "sun" style="width:25px;height:25px" viewBox="0 0 24 24">
+                <path  d="M3.55,18.54L4.96,19.95L6.76,18.16L5.34,16.74M11,22.45C11.32,22.45 13,22.45 13,22.45V19.5H11M12,5.5A6,6 0 0,0 6,11.5A6,6 0 0,0 12,17.5A6,6 0 0,0 18,11.5C18,8.18 15.31,5.5 12,5.5M20,12.5H23V10.5H20M17.24,18.16L19.04,19.95L20.45,18.54L18.66,16.74M20.45,4.46L19.04,3.05L17.24,4.84L18.66,6.26M13,0.55H11V3.5H13M4,10.5H1V12.5H4M6.76,4.84L4.96,3.05L3.55,4.46L5.34,6.26L6.76,4.84Z" />
+            </svg>
+             <!--moon icon-->
+            <svg class = "moon"style="width:25px;height:25px" viewBox="0 0 24 24">
+                <path  d= "M2 12A10 10 0 0 0 15 21.54A10 10 0 0 1 15 2.46A10 10 0 0 0 2 12Z" />
+            </svg>
+        </div>
+        <div class="cow">
+            <div class="navlinks">
+
+                <div class="picha">
+                    <img src="route 66.jpg" alt="This is the logo" >
+                    <h2>Press<span>VPN</span></h2>
+                </div>
+                <a href="#" class="phone">
+                    <i class="fa fa-bars fa-2x" aria-hidden="true" id="menu" onclick="toogle()"></i>
+                </a>
+                <ul id="nav" class="links zombie" >
+                    <li class="buff" id="exit">
+                        <i class="fa fa-times fa-1x" aria-hidden="true" id="exit"></i>
+                    </li>
+                    <li>Home <i class="fa fa-home" aria-hidden="true"></i></li>
+                    <li>Products <i class="fab fa-product-hunt"></i></li>
+                    <li>Sports <i class="fas fa-futbol"></i></li>
+                    <li>Blog <i class="fa fa-archive" aria-hidden="true"></i>
+                    </li>
+                    <li><a target="_blank" href="marv.html"></a>My Account <i class="fa fa-user-circle" aria-hidden="true"></i></li>
+                </ul>
+        </div>
+    </div>
+    <section class="content">
+        <div class="title-1">
+            <h1>Stream soccer with the #1 rated VPN</h1>
+            <h4>Risk-free 30-day money-back guarantee</h4>
+            <button>Get the #1 Rated VPN<span><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></span></button>
+        </div>
+    </section>
+
+    <script src="nav.js"></script>
+
+
+</body>
+</html>
